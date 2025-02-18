@@ -1,3 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautilicious - Indian Beauty for Indian Shades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6d6f5;
+        }
+        header {
+            background-color: #b19cd9;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            text-align: center;
+            background-color: #c8a2c8;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .product {
+            display: inline-block;
+            background: white;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            width: 250px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Beautilicious - Beauty for Every Indian Skin Tone</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Welcome to Beautilicious</h2>
+        <p>Your one-stop destination for makeup designed for Indian skin tones.</p>
+    </div>
+    <div class="container" id="shop">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="images/primer.jpg" alt="Primer">
+            <h3>Primer</h3>
+            <p>Creates a smooth base for flawless makeup application.</p>
+        </div>
+        <div class="product">
+            <img src="images/foundation.jpg" alt="Foundation">
+            <h3>Foundation</h3>
+            <p>Hydrating and long-lasting formula, perfect for Indian skin tones.</p>
+        </div>
+        <div class="product">
+            <img src="images/concealer.jpg" alt="Concealer">
+            <h3>Concealer</h3>
+            <p>Brightens and covers imperfections seamlessly.</p>
+        </div>
+        <div class="product">
+            <img src="images/compact.jpg" alt="Compact Powder">
+            <h3>Compact Powder</h3>
+            <p>Controls shine and sets makeup for a matte finish.</p>
+        </div>
+        <div class="product">
+            <img src="images/blush.jpg" alt="Blush">
+            <h3>Blush</h3>
+            <p>Adds a natural flush with shades tailored for Indian skin.</p>
+        </div>
+        <div class="product">
+            <img src="images/highlighter.jpg" alt="Highlighter">
+            <h3>Highlighter</h3>
+            <p>Gives a radiant glow, enhancing your natural features.</p>
+        </div>
+        <div class="product">
+            <img src="images/eyeshadow.jpg" alt="Eyeshadow Palette">
+            <h3>Eyeshadow Palette</h3>
+            <p>A mix of mattes and shimmers, perfect for any occasion.</p>
+        </div>
+        <div class="product">
+            <img src="images/eyeliner.jpg" alt="Eyeliner">
+            <h3>Eyeliner</h3>
+            <p>Smudge-proof and long-lasting for a defined look.</p>
+        </div>
+        <div class="product">
+            <img src="images/mascara.jpg" alt="Mascara">
+            <h3>Mascara</h3>
+            <p>Volumizes and lengthens lashes for a dramatic effect.</p>
+        </div>
+        <div class="product">
+            <img src="images/lipstick.jpg" alt="Lipstick">
+            <h3>Lipstick</h3>
+            <p>Highly pigmented shades designed for Indian skin tones.</p>
+        </div>
+        <div class="product">
+            <img src="images/setting_spray.jpg" alt="Setting Spray">
+            <h3>Setting Spray</h3>
+            <p>Locks in makeup for all-day wear.</p>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>Beautilicious is a brand dedicated to offering inclusive, skin-loving, and long-lasting makeup for all Indian skin tones.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: support@beautilicious.com</p>
+    </div>
+</body>
+</html>
 <header>
 
 <!--
